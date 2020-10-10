@@ -12,9 +12,10 @@ from userbot import CMD_HELP
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/7a02f9df34cf5c09dbfb1.jpg"
+  WARN_PIC = "https://telegra.ph/file/db92ed3d77377856ef911.mp4"
 else:
-WARN_PIC = PMPERMIT_PIC
+  WARN_PIC = PMPERMIT_PIC
+
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 
@@ -25,8 +26,8 @@ PM_ON_OFF = Config.PM_DATA
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n`THIS IS ILLEGAL AND REGARDED AS A CRIME`"
 USER_BOT_WARN_ZERO = "`You were spamming my sweet master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot⭕️.`\n**Now GTFO, i'm busy**"
-USER_BOT_NO_WARN = ("`Hello, This is THUGBOT⚠️.You have found your way here to my master,`"
-                   f"{DEFAULTUSER}'s `inbox. Sun be lavde Dekh agar replay aaya to samajh jana tu Special hai or nahi aaya to teri aukaat nahi replay sun ne ki...\n"
+USER_BOT_NO_WARN = ("`Hello, This is HellBot⚠️.You have found your way here to my master,`"
+                   f"{DEFAULTUSER}'s `inbox. Koi fayda nhi h re dekh... Accha khasa ghar me jake Roti,Bhaji bana yeh sab chale naa kar...\n"
                     "Leave your Name,Reason and 100 Million $ and hopefully you'll get a reply within 100 light years.`⭕️\n\n"
                     "❤️ Register Your Request! ❤️\nSend /start To Register Your Request!! 🔥\n"
                     "⭕️**Now You Are In Trouble So Send** 🔥 `/start` 🔥 **To Start A Valid Conversation!!**⭕️")
@@ -83,7 +84,7 @@ if Var.PRIVATE_GROUP_ID is not None:
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
-                await event.edit("https://telegra.ph/file/720163df5c34ece5d5434.jpg .!!**[{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit("Tu..😒 nikal pehli fursat me you are blocked now..😠 go find somebody else..fuck off.!!**[{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
