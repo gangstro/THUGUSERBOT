@@ -1,8 +1,7 @@
 {
-  "name": "THUGBOT",
-  "description": "The best userbot made by @ALONGANGSTER with the help of @Kraken_The_Badass. Made with Love And Phone And Hardwork and... For Support Join @GANGSTERSUPPORT.",
-",
-  "logo": "https://telegra.ph/file/671622c15a4984a2ed0fe.jpg ",
+  "name": "Hêllẞø†",
+  "description": "The best userbot made by @Kraken_The_BadASS. Made with Love And Phone And Hardwork and... Nhi aur kahi se to nhi bana....For Support Join @HellBot_Official ",
+  "logo": "https://telegra.ph/file/7decf235312af8536e9aa.jpg ",
     "keywords": [
     "telegram",
     "userbot",
@@ -10,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/gangstro/THUGUSERBOT/",
-  "website": "https://github.com/gangstro/THUGUSERBOT",
-  "success_url": "https://t.me/GANGSTERSUPPORT",
+  "repository": "https://github.com/HellBoy-OP/HellBot/",
+  "website": "https://github.com/HellBoy-OP/HellBot/",
+  "success_url": "https://t.me/HellBot_Official",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -107,12 +106,12 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work NOTE- please fill this value so you can update new versions if comes.",
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
       "value": "",
       "required": true
     },
     "HEROKU_APP_NAME": {
-      "description": "The Value of App Name you filled in right on top.Required for updater to work NOTE- please fill this value so you can update new versions if comes.",
+      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
       "value": "",
       "required": false
     },
