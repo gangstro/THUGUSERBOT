@@ -1,4 +1,4 @@
-#"""Update UserBot Code (FOR HELLBOT USERBOT)
+#"""Update UserBot Code (THUGBOT)
 #Syntax: .update
 #\nAll Credits goes to © @Kraken_The_BadASS
 #\nFor this awasome plugin.\nPorted from PpaperPlane Extended"""
@@ -12,7 +12,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 from userbot import CMD_HELP, bot
 from userbot.utils import admin_cmd
 
-UPSTREAM_REPO_URL = "https://github.com/HellBoy-OP/HellBot.git"
+UPSTREAM_REPO_URL = "https://github.com/gangstro/THUGUSERBOT.git"
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
 
@@ -60,7 +60,7 @@ async def upstream(ups):
     except InvalidGitRepositoryError as error:
         if conf != "now":
             await ups.edit(f"Hey, did you type update🤔.....Okie..My dear sweet master..🤗\
-            \nPlease do type |.update now| to update this Awesome Hêllẞø†😎.")
+            \nPlease do type |.update now| to update this Awesome THUGBOT😎.")
             return
         repo = Repo.init()
         origin = repo.create_remote('upstream', off_repo)
@@ -87,7 +87,7 @@ async def upstream(ups):
     changelog = await gen_chlog(repo, f'HEAD..upstream/{ac_br}')
     if not changelog and not force_update:
         await ups.edit(
-            f'\n`Your Hêllẞø† is`  **up-to-date**  `with`  **{ac_br}**\n')
+            f'\n`Your THUGBOT is`  **up-to-date**  `with`  **{ac_br}**\n')
         repo.__del__()
         return
     if conf != "now" and not force_update:
@@ -108,9 +108,9 @@ async def upstream(ups):
         await ups.respond("do `.update now` to update")
         return
     if force_update:
-        await ups.edit('Force-Syncing to latest stable userbot code, please wait master...😅😅')
+        await ups.edit('Force-Syncing to latest stable userbot code, please wait ...😅😅')
     else:
-        await ups.edit('Updating userbot, please wait....you arey best boss🤗😇')
+        await ups.edit('Updating THUG, please wait....you arey best boss🤗😇')
     if HEROKU_API_KEY is not None:
         import heroku3
         heroku = heroku3.from_key(HEROKU_API_KEY)
