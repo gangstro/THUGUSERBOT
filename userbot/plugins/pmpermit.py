@@ -14,7 +14,7 @@ PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
   WARN_PIC = "https://telegra.ph/file/7a02f9df34cf5c09dbfb1.jpg"
 else:
-
+WARN_PIC = PMPERMIT_PIC
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 
