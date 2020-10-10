@@ -15,7 +15,7 @@ This is the one and only OFFICIAL THUGUSERBOT made by [GANGSTER](https://t.me/AL
 
 ### The Easy Way
 
-<p align="center"> <a href = "https://heroku.com/deploy?template=https://github.com/gangsterkimng/GANGSTEROP/tree/master"><img src="https://www.herokucdn.com/deploy/button.svg" alt="hmm" width="250px"></a></p>
+<p align="center"> <a href = "https://heroku.com/deploy?template=https://github.com/gangstro/THUGUSERBOT/tree/master"><img src="https://www.herokucdn.com/deploy/button.svg" alt="hmm" width="250px"></a></p>
 
 ### [String #1](https://Hellbot.hellboyop.repl.run)
 
